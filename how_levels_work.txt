@@ -1,0 +1,17 @@
+Levels in Batch Rogue contain the following information:
+
+- Graphical elements of the level. Each character is a single tile.
+
+- Collision information
+	# Given as coordinate pairs with a period dividing them (x.y).
+	# In the code these are stored as strings!
+	# 0.0 is in the bottom left corner (fig. 1)
+
+Figure 1:
+. . . .< 3.3
+. . . .
+. . . .
+@ . . .
+^
+0.0
+
